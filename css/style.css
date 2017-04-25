@@ -1,0 +1,115 @@
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+form,
+.button-add {
+    display: inline-block;
+}
+
+form label {
+    margin-right: 20px;
+}
+
+.block {
+    border-bottom: 2px solid #ccc;
+}
+
+
+/*============== table =============*/
+
+.table {
+    width: 960px;
+    margin: auto;
+    margin-top: 50px;
+    display: none;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr:nth-child(2n) {
+    background-color: #ccc;
+}
+
+th {
+    height: 50px;
+}
+
+table tr:nth-child(2n):hover,
+.button-add button:hover,
+tr:hover {
+    background-color: #564f4f;
+    color: #fff;
+}
+
+td {
+    height: 25px;
+}
+
+.show-table {
+    display: block !important;
+}
+
+.button-add button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.sort-btn {
+    display: none;
+}
+
+.search-bar {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+
+/*================ pagination ============*/
+
+.pagStyle {
+    float: right;
+    display: none;
+}
+
+.pagStyle a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+}
+
+.pagStyle a:hover {
+    cursor: pointer;
+    background-color: #564f4f;
+    color: #fff;
+}
+
+.disabledBtns {
+    cursor: default;
+    pointer-events: none;
+    color: #ccc;
+}
+
+.active-btn {
+    cursor: pointer;
+    background-color: #564f4f !important;
+    color: #fff !important;
+}
